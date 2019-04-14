@@ -23,7 +23,7 @@ this.setState({images:data.data.results})
       <div className="ui container">
          <Searchbar onSubmit={this.onSearchSubmit}/>
 
-         <Images imgs={this.state.images} style={{marginTop:'20px'}}/>
+         <Images imgs={this.state.images} />
 
       </div>
     );

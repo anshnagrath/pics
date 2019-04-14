@@ -1,0 +1,19 @@
+
+.image-list{
+    margin-top:10px;
+    display:grid; 
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+     /* autofill decide how many columns to put and minmax is 250 is min size 1 fr is to keep all columbs of equal size; */
+    grid-gap: 0 10px;
+    /* grid gap defines horixontal and verticle gap between rows */
+
+    grid-auto-rows: 10px;
+    /* grid auto row is to determine the HEIGHT of row */
+    
+}
+.image-list img{
+    width:250px;
+  
+    /* to give each column to have two zqcolumns of height */
+
+}
